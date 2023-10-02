@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/img_disco"
+    android:orientation="vertical"
+    tools:context=".FragmentSongs">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="28dp"
+        android:text="Now playing"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="232dp"
+        android:text="Talk me down"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:layout_marginStart="16dp"
+        android:textStyle="italic"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blue Neighbourhood"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_marginStart="16dp"
+        android:textStyle="italic"/>
+</LinearLayout>
